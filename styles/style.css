@@ -1,6 +1,51 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya');
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
 
+/* Header */
+
+#header {
+	
+}
+
+	#header h1 {
+		  font-family: "Alegreya", Times, serif;
+			font-size: 1em;
+			text-align: left;
+			padding: 8px;
+	}
+	
+	#header ul {
+		list-style-type: none;
+		width: 100%;
+		background-color: #333;
+	}
+
+	#header li {
+		display: inline-block;
+	}
+
+	#header nav {
+		margin: 10px;
+		direction: rtl;
+	}
+
+	#header li a {
+		display: block;
+		padding: 8px;
+		color: white;
+		width: 100px;
+		text-align: center;
+		text-decoration: none;
+	}
+
+	#header li a:hover {
+		background-color: #111;
+		color: white;
+		text-decoration: none;
+	}
+
+
+
 h1 {
   font-family: "Alegreya", Times, serif;
   font-size: 100px;
@@ -11,36 +56,6 @@ h1 {
 h2 {
   font-family: "Ubuntu Condensed", Times, serif;
   text-align: center;
-}
-
-ul {
-  list-style-type: none;
-  width: 100%;
-  background-color: #333;
-}
-
-li {
-  display: inline-block;
-}
-
-nav {
-  margin: 10px;
-  direction: rtl;
-}
-
-li a {
-  display: block;
-  padding: 8px;
-  color: white;
-  width: 100px;
-  text-align: center;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #111;
-  color: white;
-  text-decoration: none;
 }
 
 #images {
