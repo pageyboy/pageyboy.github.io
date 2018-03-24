@@ -99,4 +99,28 @@ html, body {
 }
 .site-footer {
   background: #5F5F5F;
+  text-align: center;
+}
+
+.site-footer  ul {
+	list-style-type: none; /* No bullet points */
+	display: inline-block;
+	font-size: 1em;
+	height: 1em;
+	line-height: 1em;
+}
+
+.site-footer  li {
+	display: inline; /* Adds li items in a horizontal list */
+}
+
+.site-footer li a {
+	text-decoration: none;
+	color: white;
+	padding: 1em;
+}
+
+.social-logo {
+	max-height: 1em;
+	width: auto;
 }
