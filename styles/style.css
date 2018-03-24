@@ -28,6 +28,15 @@ body {
 	padding-left: 1em;
 }
 
+.header h1 a {
+	text-decoration: none;
+	color: white;
+}
+
+.header h1 a:hover {
+	color: #A3A3A3;
+}
+
 .header ul {
 	list-style-type: none; /* No bullet points */
 	display: inline;
@@ -62,6 +71,7 @@ body {
 	width: 70%;
 	margin: 0 auto;
 	height: 90%;
+	max-width: 50%;
 }
 
 .section h1 {
@@ -106,8 +116,8 @@ html, body {
 	list-style-type: none; /* No bullet points */
 	display: inline-block;
 	font-size: 1em;
-	height: 1em;
-	line-height: 1em;
+	height: 2em;
+	line-height: 2em;
 }
 
 .site-footer  li {
@@ -121,6 +131,28 @@ html, body {
 }
 
 .social-logo {
-	max-height: 1em;
-	width: auto;
+	font-size: 2em;
+	color: white;
+}
+
+.fa-github:hover {
+	color: #A3A3A3;
+}
+
+.fa-twitter:hover {
+	color: #A3A3A3;
+}
+
+.fa-linkedin:hover {
+	color: #A3A3A3;
+}
+
+form {
+	font-size: 1em;
+	text-align: left;
+}
+
+[type~="text"] input {
+	text-align: center;
+	width: 50%;
 }

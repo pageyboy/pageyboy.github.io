@@ -2,6 +2,7 @@
 
 <html>
 	<head>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link href="styles/style.css" rel="stylesheet" type="text/css">
 		<title>Chris Page - Portfolio</title>
 	</head>
@@ -11,7 +12,7 @@
 <!--Header-->
 
 		<div class="header">
-			<h1>Chris Page</h1>
+			<h1><a href="#Home">Chris Page</a></h1>
 			<ul>
 				<li><a href="#Home">Home</a></li>
 				<li><a href="#About">About Me</a></li>
@@ -77,17 +78,27 @@
 			<div class="section" id="Contact">
 				<h1>Contact Me</h1>
 				<h3>If you would like to reach out to me please use the form or hit me up using the social media links below.</h3>
+				<form>
+					Name:<br><br>
+					<input type="text" name="name" style="width: 50%;"><br><br>
+					Email Address:<br><br>
+					<input type="text" name="email" style="width: 50%;"><br><br>
+					Message:<br><br>
+					<textarea style="width: 100%; height: 5em; max-height: 20%; max-width: 100%;"></textarea><br><br>
+					<input type="submit" value="submit" style="height: 2.5em; width: 20%;">
+				</form>
 			</div>
-			
 		</div>
 		
 <!--Footer-->
 
 		<footer class="site-footer">
 			<ul>
-				<li><a href="https://github.com/pageyboy"><img class="social-logo" src="images/GitHub/GitHub-Mark-32px.png"></a></li>
-				<li><a href="https://www.linkedin.com/in/chrispage1"><img class="social-logo" src="images/LinkedIn/In-Black-28px-TM.png"></a></li>
-				<li><a href="https://twitter.com/_pageyboy/"><img class="social-logo" src="images/GitHub/GitHub-Mark-32px.png"></a></li>
+				<li>
+					<a href="https://github.com/pageyboy"><i class="social-logo fa fa-github"></i></a>
+					<a href="https://www.linkedin.com/in/chrispage1/"><i class="social-logo fa fa-linkedin"></i></a>
+					<a href="https://twitter.com/_pageyboy/"><i class="social-logo fa fa-twitter"></i></a>
+				</li>
 			</ul>
 		</footer>
 
