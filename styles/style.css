@@ -5,15 +5,15 @@
 }
 
 body {
+	background-color: #F0F0F0;
 	margin: 0;
 	padding: 0;
-	background-color: F0F0F0;
 }
 
 /* Header */
 
 .header {
-	background-color: 5F5F5F;
+	background-color: #5F5F5F;
 	overflow: hidden;
 	position: fixed;
 	top: 0px;
@@ -50,7 +50,7 @@ body {
 }
 
 .header li a:hover {
-	background-color: A3A3A3;
+	background-color: #A3A3A3;
 }
 
 /* Section */
@@ -79,4 +79,24 @@ body {
 .section ul {
 	list-style-type: none;
 	font-size: 2em;
+}
+
+}
+html, body {
+  height: 100%;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -4em; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: 4em; 
+}
+.site-footer {
+  background: #5F5F5F;
 }
