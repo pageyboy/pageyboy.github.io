@@ -77,10 +77,10 @@ html, body {
 	vertical-align: center;
 	padding-top: 3em;
 	text-align: center;
-	width: 70%;
-	margin: 0 auto;
+	width: 50%;
+	margin: 4em auto;
 	/* height: 100%; */
-	max-width: 50%;
+	max-width: 70%;
 }
 
 .section h1 {
