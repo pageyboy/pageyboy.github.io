@@ -4,10 +4,15 @@
 	font-family: "Ubuntu Condensed", Times, serif;
 }
 
+html {
+	
+}
+
 body {
 	background-color: #F0F0F0;
 	margin: 0;
 	padding: 0;
+	clear: both;
 }
 
 html, body {
@@ -74,7 +79,7 @@ html, body {
 	text-align: center;
 	width: 70%;
 	margin: 0 auto;
-	height: 100%;
+	/* height: 100%; */
 	max-width: 50%;
 }
 
@@ -97,21 +102,13 @@ html, body {
 
 /* Footer */
 
-.page-wrap {
-  min-height: 100%;
-  /* equal to footer height */
-  margin-bottom: -4em; 
-}
-.page-wrap:after {
-  content: "";
-  display: block;
-}
-.site-footer, .page-wrap:after {
-  height: 4em; 
-}
 .site-footer {
-  background: #5F5F5F;
-  text-align: center;
+	background-color: #5F5F5F;
+	overflow: hidden;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	text-align: center;
 }
 
 .site-footer  ul {
@@ -175,4 +172,8 @@ textarea{
 	max-width: 100%;
 }
 
-
+#family-image {
+	width: auto;
+	height: 20em;
+	border-radius: 100%;
+}
