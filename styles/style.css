@@ -177,3 +177,9 @@ textarea{
 	height: 20em;
 	border-radius: 100%;
 }
+
+#me-image {
+	width: auto;
+	height: 12em;
+	border-radius: 100%
+}
