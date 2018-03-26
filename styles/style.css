@@ -44,10 +44,6 @@ html, body {
 	color: white;
 }
 
-.header h1 a:hover {
-	color: #A3A3A3;
-}
-
 .header ul {
 	list-style-type: none; /* No bullet points */
 	display: inline;
@@ -163,12 +159,6 @@ html, body {
 	color: white;
 }
 
-/* Footer Logos */
-
-.social-logo:hover {
-	color: #A3A3A3;
-}
-
 /* Form */
 
 form {
@@ -204,3 +194,17 @@ textarea{
 	height: 12em;
 	border-radius: 100%
 }
+
+.hvr-fade {
+	/* The inherit !important overrides the setting back to default */
+	vertical-align: inherit !important;
+	display: inherit !important;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+}
+
+.hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
+  background-color: #5F5F5F;
+  color: A3A3A3;
+}
+
