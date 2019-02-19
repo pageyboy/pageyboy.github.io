@@ -2,7 +2,7 @@
 
 * {
 	font-family: "Ubuntu Condensed", Times, serif;
-	
+
 }
 
 html {
@@ -52,7 +52,7 @@ html, body {
 	font-family: "Ubuntu Condensed", Times, serif;
 	height: 2em;
 	line-height: 2em;
-	
+
 }
 
 .header li {
@@ -118,7 +118,7 @@ html, body {
 
 .section h3 {
 	font-size: 2em;
-	padding-bottom: 2em;
+	padding-bottom: 0.5em;
 }
 
 .section ul {
@@ -196,6 +196,15 @@ textarea{
 	border-radius: 100%
 }
 
+#project-image {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: block;
+	width: 80%;
+}
+
 .hvr-fade {
 	/* The inherit !important overrides the setting back to default */
 	vertical-align: inherit !important;
@@ -208,6 +217,3 @@ textarea{
   background-color: #5F5F5F;
   color: A3A3A3;
 }
-
-
-
