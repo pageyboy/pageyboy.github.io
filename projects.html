@@ -56,13 +56,6 @@
 				<p>It is a ticketing system that automates contacting Field Engineers when there are no Remote Engineers available to speak to customers that contact the team to ensure that customers queries are handled effectively.</p>
 				<p>Languages: VB.NET, SQL</p>
 				<p>Scope: 10-15 daily users</p>
-
-				<h3>Drop Point Calculator</h3>
-				<p>Building upon the success of the Field Out Tool I wrote this simple desktop application</p>
-				<p>When engineers are scheduled to attend customer sites parts are often required to fix the instruments. It is much cheaper to send parts to strategic Third Party drop points than directly to site although if the engineer has to travel a significant distance out of their way then this saving is negated.</p>
-				<p>The application simply determines the closest drop points to site if the engineer is unknown or, alternatively, should the engineer be known all drop points on route are assessed and the drop point that is most convenient is chosen.</p>
-				<p>Languages & APIs: VB.NET, Google Geocoding API, Google Maps Distance Matrix API</p>
-				<p>Scope: Several daily users for 100+ daily engineer visits</p>
 			-->
 				<h3>Under Pressure - Ion Mobility Drift Gas Pressure Monitor</h3>
 				<img src="https://raw.githubusercontent.com/pageyboy/UnderPressure/master/Readme%20Images/UnderPressure_Measure_Graph_750.PNG" id="project-image">
@@ -83,9 +76,14 @@
 				<p>Scope: Customers & Field Engineers</p>
 
 				<h3>Drop Point Calculator</h3>
-				<p>Building upon the success of the Field Out Tool I wrote this simple desktop application</p>
 				<p>When engineers are scheduled to attend customer sites parts are often required to fix the instruments. It is much cheaper to send parts to strategic Third Party drop points than directly to site although if the engineer has to travel a significant distance out of their way then this saving is negated.</p>
 				<p>The application simply determines the closest drop points to site if the engineer is unknown or, alternatively, should the engineer be known all drop points on route are assessed and the drop point that is most convenient is chosen.</p>
+				<p>It works on the following logic if the engineer attending is unknown at the point parts are shipped:</p>
+					<ol>
+						<li>Customer's postcode is converted to Longitude & Latitude.</li>
+						<li>If the point to point distance is calculated to be &#8804; 15 miles then this drop point is assessed further otherwise this drop point is excluded.</li>
+						<li>If the drop point is to be assessed further then a worst case scenario of engineer travel is assessed. It assumes the engineer is coming directly past site in rush hour traffic and travel time is assessed utilising the Google Maps Distance Matrix API. If the travel time is estimated to be &#8804; 30 mins then the drop point will be presented to the Remote Engineer otherwise it will be excluded.</li>
+					</ol>
 				<p>Languages & APIs: VB.NET, Google Geocoding API, Google Maps Distance Matrix API</p>
 				<p>Scope: Several daily users for 100+ daily engineer visits</p>
 

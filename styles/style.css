@@ -125,6 +125,15 @@ html, body {
 	list-style-type: none;
 	font-size: 2em;
 }
+/*
+.section li {
+	position: absolute;
+	left: 25%;
+	width: 50%;
+	vertical-align: auto;
+}
+*/
+
 
 /* Footer */
 
